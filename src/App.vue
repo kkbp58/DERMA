@@ -25,8 +25,8 @@ export default {
     Team,
     TraitmentsLaser,
     Contacts,
-    Gallery,
-  },
+    Gallery
+  }
 }
 </script>
 
@@ -36,7 +36,7 @@ export default {
 $theme-colors: (
   'primary': $c-palette-primary,
   'danger': $c-palette-sec-primary,
-  'success': $c-palette-accent-dark,
+  'success': $c-palette-accent-dark
 );
 @import '~bootstrap/scss/bootstrap.scss';
 @import '~bootstrap-vue/src/index.scss';

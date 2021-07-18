@@ -42,7 +42,7 @@ export default {
   name: 'Team',
   data() {
     return {}
-  },
+  }
 }
 </script>
 

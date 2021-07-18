@@ -15,7 +15,7 @@
           :key="imageIndex"
           @click="index = imageIndex"
           :style="{
-            backgroundImage: 'url(' + image.src + ')',
+            backgroundImage: 'url(' + image.src + ')'
           }"
         />
         <figcaption :key="imageIndex">{{ image.title }}</figcaption>
@@ -45,78 +45,78 @@ import img16 from '../assets/images/gallery/16_sm.jpg'
 export default {
   // check https://vue-cool-lightbox.lucaspulliese.com/
   name: 'Gallery',
-  data: function () {
+  data: function() {
     const imgs = [
       {
         title: 'Cabinet de dermatologie',
-        src: img1,
+        src: img1
       },
       {
         title: "Salle d'attente",
-        src: img2,
+        src: img2
       },
       {
         title: "Salle d'attente",
-        src: img3,
+        src: img3
       },
       {
         title: "Salle d'attente",
-        src: img4,
+        src: img4
       },
       {
         title: "Espace d'attente médecine esthétique",
-        src: img5,
+        src: img5
       },
       {
         title: 'Cabinet médecine esthétique',
-        src: img6,
+        src: img6
       },
       {
         title: 'Cabinet médecine esthétique',
-        src: img7,
+        src: img7
       },
       {
         title: 'Cabinet médecine esthétique',
-        src: img8,
+        src: img8
       },
       {
         title: 'Cabinet médecine esthétique',
-        src: img9,
+        src: img9
       },
       {
         title: 'Salle de stérilisation',
-        src: img10,
+        src: img10
       },
       {
         title: "Direction vers l'espace médecine esthétique",
-        src: img11,
+        src: img11
       },
       {
         title: "Salle d'intervention et Cabinet de consultation",
-        src: img12,
+        src: img12
       },
       {
         title: "Salle d'intervention",
-        src: img13,
+        src: img13
       },
       {
         title: "Salle d'intervention",
-        src: img14,
+        src: img14
       },
       {
         title: 'Cabinet de consultation',
-        src: img15,
+        src: img15
       },
       {
         title: 'Cabinet de consultation',
-        src: img16,
-      },
+        src: img16
+      }
     ]
     return {
       items: imgs,
-      index: null,
+      index: null
     }
-  },
+  }
 }
 </script>
 

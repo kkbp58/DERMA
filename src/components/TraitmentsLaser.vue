@@ -145,7 +145,7 @@
 
 <script>
 export default {
-  name: 'TraitmentsLaser',
+  name: 'TraitmentsLaser'
 }
 </script>
 

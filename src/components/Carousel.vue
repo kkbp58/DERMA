@@ -10,7 +10,7 @@
         <div
           class="rbs-carousel-content"
           :style="{
-            'background-image': `url(${slide1})`,
+            'background-image': `url(${slide1})`
           }"
         >
           <span class="rbs-carousel-title-sm">Dermatologue</span>
@@ -35,7 +35,7 @@ export default {
   name: 'Carousel',
   data() {
     return { slide: 0, slide1 }
-  },
+  }
 }
 </script>
 

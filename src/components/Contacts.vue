@@ -53,7 +53,7 @@ export default {
   name: 'Contacts',
   data() {
     return {}
-  },
+  }
 }
 </script>
 

@@ -64,6 +64,30 @@ export default {
         src: img4
       },
       {
+        title: 'Cabinet de consultation',
+        src: img15
+      },
+      {
+        title: 'Cabinet de consultation',
+        src: img16
+      },
+      {
+        title: "Salle d'intervention et Cabinet de consultation",
+        src: img12
+      },
+      {
+        title: "Salle d'intervention",
+        src: img13
+      },
+      {
+        title: "Salle d'intervention",
+        src: img14
+      },
+      {
+        title: "Direction vers l'espace médecine esthétique",
+        src: img11
+      },
+      {
         title: "Espace d'attente médecine esthétique",
         src: img5
       },
@@ -86,30 +110,6 @@ export default {
       {
         title: 'Salle de stérilisation',
         src: img10
-      },
-      {
-        title: "Direction vers l'espace médecine esthétique",
-        src: img11
-      },
-      {
-        title: "Salle d'intervention et Cabinet de consultation",
-        src: img12
-      },
-      {
-        title: "Salle d'intervention",
-        src: img13
-      },
-      {
-        title: "Salle d'intervention",
-        src: img14
-      },
-      {
-        title: 'Cabinet de consultation',
-        src: img15
-      },
-      {
-        title: 'Cabinet de consultation',
-        src: img16
       }
     ]
     return {
